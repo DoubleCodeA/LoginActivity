@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="username"
+        android:textColorHint="#ad3412"
+        android:textStyle="italic" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/et_password"
+        android:hint="password"
+        android:textColorHint="#ad3412"
+        android:textStyle="italic"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ib_login"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:text="登录"
+            android:textSize="18sp"
+            android:background="@drawable/shape" />
+        <Button
+            android:id="@+id/ib_cancel"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="注册"
+            android:textSize="18sp"
+            android:background="@drawable/shape"/>
+    </LinearLayout>
+
+
+</LinearLayout>
